@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: block;
+    text-align: -webkit-center;
+    unicode-bidi: isolate;
+    padding: 40px;
+    background-color: aliceblue;
+}
+header h1,p,button{
+    margin-top: 40px;
+}
+header button{
+    padding: 20px;
+    font-size: larger;
+    color: aliceblue;
+    background-color: rgb(101, 96, 96);
+}
+
+main{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.col1,.col2,.col3{
+    width:100% ;
+}
+main img{
+    width: 100%;
+}
+footer{
+    margin-top: 50px;
+    height: 200px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.gogleicon{
+    font-size: x-large;
+}
+.gogleicon i{
+    margin-top: 50px;
+}
+footer p{
+    font-size: larger;
+}
